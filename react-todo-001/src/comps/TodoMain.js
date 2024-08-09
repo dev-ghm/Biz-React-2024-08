@@ -2,7 +2,7 @@ import "../css/TodoMain.css";
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
 import { useState } from "react";
-// TodoUtils.js 에 선언된 getTodo() 함수를 import 하여 사용하겠다
+// TodoUtils.js 에 선언된 getTOdo() 함수를 import 하여 사용하겠다
 import { getTodo } from "../modules/TodoUtils";
 
 const TodoMain = () => {
